@@ -1,0 +1,64 @@
+.todolistMain .header input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #FFF;
+    width: 250px;
+ }
+ 
+ .todolistMain .header button {
+     padding: 10px;
+     font-size: 16px;
+     margin: 10px;
+     margin-right: 0px;
+     background-color: #0066FF;
+     color: #FFF;
+     border: 2px solid #0066FF;
+ }
+ 
+ .todolistMain .header button:hover {
+     background-color: #003399;
+     border: 2px solid #003399;
+     cursor: pointer;
+ }
+ 
+ .todolistMain .theList {
+     list-style: none;
+     padding-left: 0;
+     width: auto;
+ }
+ 
+ .todolistMain .theList li {
+     color: #333;
+     background-color: rgba(255, 255, 255, 0.5);
+     padding: 15px;
+     margin-bottom: 15px;
+     border-radius: 5px;
+     list-style: none;
+     position: relative;
+ }
+
+ 
+ @font-face {font-family: "iconfont";
+    src: url('./font/iconfont.eot?t=1596112767968'); /* IE9 */
+    src: url('./font/iconfont.eot?t=1596112767968#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAALIAAsAAAAABnQAAAJ5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCcAqBAIEUATYCJAMICwYABCAFhG0HMBu6BRHVi3myv0OQcfvvRQpEFqWuHlPT96CeypVFvRvnizkNw15IB6fxb5AiISVYAQAAAABEEK2V1bPzgKD+T75CDJIiUomMRgVoJEsSKkKRZhm9oMot6aDkFxm4PwEKuBJApjoneAITnnklAQFWa4HWDY50hXrDxUab1n99dWpxCLI03gcr3vHLc5zz63qvHzCqVDXBgBfvB8dEOqY04sRP5AKgkIpzyMTg4HL6EyiQeSDlMsfkMQEDSwPcC6MtXCSRN4xd4BLOE6g3rCLW971HKbOmBeJGuHyWOb8ss1StUF2zNotHUpsepHkYfj/+FJJUFayKg5c2LtjPtDMKpX1EgIA2V6FABZk4WhvfD8EohXrWGkeWQz+XJTaKveoE++us4kYwCPn3JHCFt1qcQI77JzE76g2kxt7bM8e6j+4evzsVE0g8y2Xj829Se1kHEO49tDk+1xOnFbu8X8PRDy5VVCX/OyYo7yKB4Mx72+i/MvjqPfSWq5+T2r07gr8k6NmWdZFlSFkV1DqTyVFTE+rVo4Td7X6MVXfdUjrU6roxZ42h1Fqo1QUQzWQFqjSYgWq1lqDetK3NDTrchMh1mHIHQGj1CpJmn6HQ6guaye9Qpds/qNYaQL3jYc8G1hEEQsloQP0h6FatY2IRld7QvbOkrCikvpDOEIJlnIupK1akORacH7cyW7DUCuzgMsy5QacWUfPomfs2TbbuRqNuZRAQSkYD1B8E3ar1e7Moff6G7p0ltVTV2F9IZxgcLEZzD/Qqr72q7uWa8+NWzBZYagXsYBTm3ECvHxVR88iPiPbNZHezfeXj+sryAXmsDkuTwh5W6JYPSoZhAAAAAA==') format('woff2'),
+    url('./font/iconfont.woff?t=1596112767968') format('woff'),
+    url('./font/iconfont.ttf?t=1596112767968') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url('./font/iconfont.svg?t=1596112767968#iconfont') format('svg'); /* iOS 4.1- */
+  }
+  
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }/*引用特殊字体*/
+
+ .todolistMain li span {
+     position: absolute;
+     right: 0;
+     margin-right: 10px;
+    
+
+ }
